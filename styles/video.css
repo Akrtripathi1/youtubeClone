@@ -7,6 +7,23 @@
   margin-left:85px;
   padding-left: 20px;
 }
+@media(max-width:600px)
+{
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(min-width:1000px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media(max-width:751px)and(min-width:999px)
+{
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
 .video-grid-info
 {
   display: grid;
